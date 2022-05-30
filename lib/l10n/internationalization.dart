@@ -15,7 +15,7 @@ class Internationalization extends Translations {
         },
         'zh': {
           'hello': '你好，世界',
-          'appName': 'Flutter 演示',
+          'appName': '应用升级',
         }
       };
 }
