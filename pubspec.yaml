@@ -50,6 +50,11 @@ dependencies:
   tuple: ^2.0.0
   json_annotation: ^4.5.0
   intl: ^0.17.0
+  # 自动化生成单例/懒加载类
+  injectable: ^1.5.3
+  get_it: ^7.2.0
+  # 桌面端升级
+  auto_updater: ^0.1.5
 
 dev_dependencies:
   flutter_test:
@@ -63,6 +68,7 @@ dev_dependencies:
   flutter_lints: ^2.0.0
   build_runner: ^2.1.11
   json_serializable: ^6.2.0
+  injectable_generator: ^1.5.3
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
