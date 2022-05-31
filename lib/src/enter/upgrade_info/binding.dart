@@ -2,9 +2,9 @@ import 'package:get/get.dart';
 
 import 'logic.dart';
 
-class UpgradeBinding extends Bindings {
+class UpgradeInfoBinding extends Bindings {
   @override
   void dependencies() {
-    Get.lazyPut(() => UpgradeLogic());
+    Get.lazyPut(() => UpgradeInfoLogic());
   }
 }

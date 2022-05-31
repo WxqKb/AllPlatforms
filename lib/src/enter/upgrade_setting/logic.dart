@@ -2,8 +2,8 @@ import 'package:get/get.dart';
 
 import 'state.dart';
 
-class UpgradeLogic extends GetxController {
-  final UpgradeState state = UpgradeState();
+class UpgradeSettingLogic extends GetxController {
+  final UpgradeSettingState state = UpgradeSettingState();
 
   @override
   void onInit() {

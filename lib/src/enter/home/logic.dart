@@ -7,7 +7,7 @@ class HomeLogic extends GetxController {
 
   @override
   void onInit() {
-    state.count = 0;
+    state.count = 20;
     super.onInit();
   }
 

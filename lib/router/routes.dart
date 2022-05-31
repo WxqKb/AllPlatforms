@@ -2,8 +2,10 @@ import 'package:get/get.dart';
 
 import '../src/enter/home/binding.dart';
 import '../src/enter/home/view.dart';
-import '../src/enter/upgrade/binding.dart';
-import '../src/enter/upgrade/view.dart';
+import '../src/enter/upgrade_info/binding.dart';
+import '../src/enter/upgrade_info/view.dart';
+import '../src/enter/upgrade_setting/binding.dart';
+import '../src/enter/upgrade_setting/view.dart';
 
 ///
 /// @desc ''
@@ -12,7 +14,9 @@ import '../src/enter/upgrade/view.dart';
 ///
 class RouteConfig {
   static const String home = "/enter/homePage";
-  static const String upgrade = "/enter/upgradePage";
+  static const String upgradeSetting = "/enter/upgradeSettingPage";
+  static const String upgradeInfo = "/enter/upgradeInfoPage";
+
   static final List<GetPage> getPages = [
     GetPage(
       name: home,
@@ -20,9 +24,14 @@ class RouteConfig {
       binding: HomeBinding(),
     ),
     GetPage(
-      name: upgrade,
-      page: () => UpgradePage(),
-      binding: UpgradeBinding(),
+      name: upgradeSetting,
+      page: () => UpgradeSettingPage(),
+      binding: UpgradeSettingBinding(),
+    ),
+    GetPage(
+      name: upgradeInfo,
+      page: () => UpgradeInfoPage(),
+      binding: UpgradeInfoBinding(),
     ),
   ];
 }
