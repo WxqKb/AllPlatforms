@@ -74,12 +74,12 @@ class PrimaryButton extends StatelessWidget {
                   ? (style ??
                       Theme.of(context)
                           .textTheme
-                          .headline1
+                          .headline2
                           ?.copyWith(color: Theme.of(context).primaryColor))
                   : disableStyle ??
                       Theme.of(context)
                           .textTheme
-                          .headline1
+                          .headline2
                           ?.copyWith(color: Theme.of(context).primaryColor),
             ),
           ),

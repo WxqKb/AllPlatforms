@@ -3,11 +3,13 @@
 /// @author karl_wei
 /// @date 2022/5/29 15:58
 ///
+import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 final ThemeData lightTheme = ThemeData(
+  fontFamily: Platform.isWindows ? 'Microsoft YaHei' : null,
   primaryColor: Colors.white,
   scaffoldBackgroundColor: const Color(0xFFF4F4F4),
   dividerColor: const Color(0xFFE8E8E8),
