@@ -18,7 +18,8 @@ class Internationalization extends Translations {
           'autoUpgrade': 'Auto Upgrade',
           'autoUpgradeTips': '若会议平板检测到更新，将在20:00—第二天6:00期间自动进行更新安装，安装前将会收到通知',
           'upgradeInfo': 'Upgrade Info',
-          'deviceIsUpDate': 'Your device is up to date!'
+          'deviceIsUpDate': 'Your device is up to date!',
+          'checking': 'Checking...'
         },
         'zh': {
           'hello': '你好，世界',
@@ -29,7 +30,8 @@ class Internationalization extends Translations {
           'autoUpgrade': '自动升级',
           'autoUpgradeTips': '若会议平板检测到更新，将在20:00—第二天6:00期间自动进行更新安装，安装前将会收到通知',
           'upgradeInfo': '版本信息',
-          'deviceIsUpDate': '您的设备已是最新！'
+          'deviceIsUpDate': '您的设备已是最新！',
+          'checking': '正在检测...'
         }
       };
 }

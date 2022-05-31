@@ -25,6 +25,7 @@ class UpgradeInfoPage extends StatelessWidget {
           ),
           padding: EdgeInsets.fromLTRB(24.w, 44.h, 24.w, 24.h),
           child: Column(
+            mainAxisSize: MainAxisSize.min,
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               Text(

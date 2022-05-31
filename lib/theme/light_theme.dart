@@ -17,13 +17,18 @@ final ThemeData lightTheme = ThemeData(
       fontWeight: FontWeight.bold,
       color: const Color(0xFF333333),
     ),
+    headline2: TextStyle(
+      fontSize: 24.sp,
+      fontWeight: FontWeight.normal,
+      color: const Color(0xFF333333),
+    ),
     bodyText1: TextStyle(
       fontSize: 24.sp,
       fontWeight: FontWeight.bold,
       color: const Color(0xFF333333),
     ),
     bodyText2: TextStyle(
-      fontSize: 16.sp,
+      fontSize: 24.sp,
       color: const Color(0xFF333333),
     ),
     subtitle1: TextStyle(

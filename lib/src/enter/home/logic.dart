@@ -20,4 +20,15 @@ class HomeLogic extends GetxController {
     state.count--;
     update();
   }
+
+  checkUpgrade() {
+    state.isChecking = true;
+    update();
+
+    Future.delayed(const Duration(seconds: 2), () {
+      state.isChecking = false;
+      state.hasUpgrade = true;
+      update();
+    });
+  }
 }

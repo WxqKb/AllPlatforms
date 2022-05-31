@@ -14,4 +14,6 @@ class AssetNames {
   static const icSetting = '$_icons/ic_setting.png';
   static const imgDevice = '$_images/img_device.png';
   static const imgGrass = '$_images/img_grass.png';
+  static const imgLoading = '$_images/img_loading.png';
+  static const imgSearch = '$_images/img_search.png';
 }
