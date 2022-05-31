@@ -34,6 +34,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       locale: Get.deviceLocale,
       translations: Internationalization(),
+      defaultTransition: Transition.rightToLeftWithFade,
       theme: lightTheme,
       darkTheme: darkTheme,
       initialRoute: RouteConfig.home,
