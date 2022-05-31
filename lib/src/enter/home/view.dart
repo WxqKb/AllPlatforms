@@ -1,7 +1,7 @@
+import 'package:badges/badges.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:get/get.dart';
-import 'package:badges/badges.dart';
 
 import '../../../components/app_bar.dart';
 import '../../../components/primary_button.dart';

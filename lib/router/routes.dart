@@ -19,19 +19,19 @@ class RouteConfig {
 
   static final List<GetPage> getPages = [
     GetPage(
-      name: home,
-      page: () => HomePage(),
-      binding: HomeBinding(),
-    ),
+        name: home,
+        page: () => HomePage(),
+        binding: HomeBinding(),
+        transition: Transition.rightToLeftWithFade),
     GetPage(
-      name: upgradeSetting,
-      page: () => UpgradeSettingPage(),
-      binding: UpgradeSettingBinding(),
-    ),
+        name: upgradeSetting,
+        page: () => UpgradeSettingPage(),
+        binding: UpgradeSettingBinding(),
+        transition: Transition.rightToLeftWithFade),
     GetPage(
-      name: upgradeInfo,
-      page: () => UpgradeInfoPage(),
-      binding: UpgradeInfoBinding(),
-    ),
+        name: upgradeInfo,
+        page: () => UpgradeInfoPage(),
+        binding: UpgradeInfoBinding(),
+        transition: Transition.rightToLeftWithFade),
   ];
 }

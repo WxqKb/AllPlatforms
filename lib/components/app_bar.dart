@@ -3,10 +3,10 @@
 /// @author karl_wei
 /// @date 2022/5/30 18:15
 ///
-
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:window_manager/window_manager.dart';
 
 import '../config/asset_name.dart';
 
@@ -47,7 +47,9 @@ class CommonAppBar {
         ...actions,
         Center(
           child: GestureDetector(
-            onTap: () => Navigator.pop(context),
+            onTap: () {
+              windowManager.hide();
+            },
             child: Image.asset(
               AssetNames.icClose,
               fit: BoxFit.cover,
