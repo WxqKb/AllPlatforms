@@ -3,7 +3,7 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:injectable/injectable.dart';
 
-import '../config/constants.dart';
+import '../../config/constants.dart';
 import 'http_error.dart';
 import 'http_manager_protocol.dart';
 
